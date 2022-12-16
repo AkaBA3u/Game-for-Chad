@@ -12,7 +12,7 @@ if __name__ == '__main__':
     running = True
 
     while running:
-        screen.fill('black')
+        screen.fill('white')
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
